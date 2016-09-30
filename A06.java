@@ -20,7 +20,7 @@ class A06{
 		System.out.print("영어점수 입력:");
 		int eng = s.nextInt();
 		
-		double avg = lan+math+eng/3;
+		double avg = (lan+math+eng)/3;
 		String grade = whatGrade(avg);
 
 		print("==============================");
